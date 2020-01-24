@@ -1,0 +1,21 @@
+.player-container {
+  width: 480px;
+  height: calc((9/16) * 480px);
+  position: relative;
+  background: #000;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.player {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transition: 0.5s ease-in-out;
+  opacity: 0;
+}
+.player-show {
+  opacity: 1
+}
